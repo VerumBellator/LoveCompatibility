@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorAccent"
     tools:context=".Fingerprints_Activity">
 
     <ImageButton
@@ -15,8 +16,9 @@
         android:layout_marginTop="80dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:background="@null"
         android:contentDescription="@string/fingerprint_Up"
-        android:src="@mipmap/ic_launcher"
+        android:src="@mipmap/button1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -31,8 +33,9 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="80dp"
+        android:background="@null"
         android:contentDescription="@string/fingerprint_Down"
-        android:src="@mipmap/ic_launcher"
+        android:src="@mipmap/button2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
